@@ -7,4 +7,9 @@ Ele é responsável por:
 
 O arquivo schema_dfdb.sql possui o schema do mysql
 O arquivo mapear_folder_dfimoveis.py é responsável por gerar o url_validas.txt
+$17/10/2025 
+- /metadata/ Fica as informações padrões do DF Imoveis, como tipo de imoveis, e localização
+- /db/ Fica informações referentes a banco de dados
+- /db/dfdb.sql fica o backup do banco de dados com todos os registros até o dia 17/10/2025
 
+Foi ajustado no /metadata/ algumas informações para a elaboração do banco de dados na tabela endereco

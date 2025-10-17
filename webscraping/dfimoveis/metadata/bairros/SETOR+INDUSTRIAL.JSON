@@ -1,6 +1,11 @@
 {
+  "uf": "DF",
+  "cidade": "SETOR INDUSTRIAL",
   "bairros": [
-    "CRIXA",
-    "VILA SAO JOSE"
+    "SAAN",
+    "SCIA",
+    "SIA",
+    "SOF NORTE",
+    "SOF SUL"
   ]
 }
