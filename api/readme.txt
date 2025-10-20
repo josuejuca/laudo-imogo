@@ -9,3 +9,9 @@ Criação das APIs com FastAPI parte inicial, as APIs a principio tera algumas f
 [] laudo
 
 Criação e melhoria do arquivo utils/consultas_imoveis.py 
+$20/10/2025 
+Criação da API v0.1.0
+Rotas: 
+- /api/laudo/estimativa
+- /api/laudo/enderecos/{uf}
+- /api/laudo/tipos

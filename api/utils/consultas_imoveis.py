@@ -12,10 +12,10 @@ from statistics import mean
 
 # ===== Config MySQL =====
 config = {
-    "user": "root",
+    "user": "",
     "password": "",
-    "host": "localhost",
-    "database": "dfdb",
+    "host": "",
+    "database": "quadr767_laudo-db",
     "port": 3306
 }
 
@@ -337,16 +337,16 @@ def buscar_imoveis(metragem=None, quartos=None, suites=None, vagas=None,
 if __name__ == "__main__":
     # Ex.: endereço padronizado (tokens "QS", "5", "RUA", "400" vão ser aplicados em ANDs)
     buscar_imoveis(
-        cidade="CEILANDIA",
-        bairro="CEILANDIA SUL",
-        endereco="QNM 25",
-        tipo="CASA",
+        cidade="VICENTE PIRES",
+        bairro="VICENTE PIRES",
+        endereco="Rua 8",
+        tipo="Casa",
         limite=10,
-        quartos=3,        
-        vagas=2,
+        quartos=6,        
+        vagas=6,
         suites=0,
-        metragem="200-250",
-        estado_conservacao="original",
+        metragem="500-1250",
+        estado_conservacao="Padrão",
         tolerancia_m2_pct=0.10,
         tipo_negocio="Venda"  
     )

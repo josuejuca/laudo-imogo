@@ -11,6 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 # =========================
 load_dotenv()
 
+# MYSQL_URL = "mysql+pymysql://root:@localhost/dfdb?charset=utf8mb4"
 MYSQL_URL = "mysql+pymysql://root:@localhost/dfdb?charset=utf8mb4"
 
 engine = create_engine(MYSQL_URL, pool_pre_ping=True, future=True)
